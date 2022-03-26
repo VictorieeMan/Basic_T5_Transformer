@@ -21,7 +21,7 @@ try:
 except Exception as e:
     raise Exception("Couldn't load all modules. More info: {}".format(e))
 
-print("Gooday ax shaft!")
+# print("Gooday ax shaft!")
 
 tokenizer = AutoTokenizer.from_pretrained("t5-small")
 model = AutoModelWithLMHead.from_pretrained("t5-small")
@@ -29,6 +29,9 @@ model = AutoModelWithLMHead.from_pretrained("t5-small")
 #Hyperparameters
 max_source_len = 512
 max_target_len = 128
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print("Available device:",device)
 
 #Training examples
 input_seq_1 = "There's a monkey under the table."
