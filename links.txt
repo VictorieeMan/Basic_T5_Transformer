@@ -1,2 +1,5 @@
 T5-informaiton
 *https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html
+
+HugginFace T5
+*https://huggingface.co/docs/transformers/model_doc/t5
