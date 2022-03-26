@@ -8,3 +8,8 @@ Tested versioning requirements:
 -PyTorch: 
 
 -Cuda: 11.3 
+
+Remember to run:
+```
+pip freeze > requirements.txt
+```
