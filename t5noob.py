@@ -3,6 +3,12 @@ GitHub Repo: https://github.com/VictorieeMan/Basic_T5_Transformer.git
 An attempt at creating an easy to mod and use T5 Transformer Model for the PyTorch framework.
 """
 
+""" To-do and doing list:
+Example:
+*VE reading up on T5
+
+"""
+
 try:
     import os
     import json
